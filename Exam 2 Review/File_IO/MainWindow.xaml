@@ -1,0 +1,19 @@
+﻿<Window x:Class="File_IO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:File_IO"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="lstSalaries" Margin="10,50,531,141"/>
+        <Label Content="&gt; $70,000 Salary" HorizontalAlignment="Left" Margin="107,27,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstEmails" Margin="453,50,88,141"/>
+        <Label Content="Dropbox Email" HorizontalAlignment="Left" Margin="550,23,0,0" VerticalAlignment="Top"/>
+        <Label Content="Average Salary:" HorizontalAlignment="Left" Margin="36,353,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtAvgSalary" HorizontalAlignment="Left" Margin="140,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Button x:Name="btnAnalyze" Content="Analyze" HorizontalAlignment="Left" Margin="326,361,0,0" VerticalAlignment="Top" Height="35" Width="100" Click="btnAnalyze_Click"/>
+
+    </Grid>
+</Window>
